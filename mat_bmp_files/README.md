@@ -6,3 +6,5 @@ This folder contains all `.mat` and `.bmp` files used for simulation.
 `ftmode1.mat` to `ftmode6.mat` are corresponding FTzernike modes.
 
 `.bmp` files correspond to `.mat` files, but with an `SLM_` at beginning.
+
+`SLM_sorter...` are `.bmp` files for sorters.
