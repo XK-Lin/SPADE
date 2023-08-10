@@ -11,6 +11,6 @@
 
 `ge_mode1_meta.m`, `ge_mode2_meta.m`, and `ge_mode3_meta.m` create `.mat` and `.bmp` files for one-mode-only sorter. The three modes sorted by the sorter are $`M_1=\mathcal{F}\{Z^0_0\}`$, $`M_2=\mathcal{F}\{Z^1_1\}`$, $`M_3=\mathcal{F}\{ Z^{-1}_1\}`$.
 
-`ge_mode23_meta.m`, `ge_mode123_period_meta.m`, and `ge_mode123_angle_meta.m` create `.mat` and `.bmp` files for multiplexed sorter. The spatial distributions of spots are either from different grating periods or different diffraction angles.
+`ge_mode23_meta.m`, `ge_mode123_period_meta.m`, and `ge_mode123_angle_meta.m` create `.mat` and `.bmp` files for multiplexed sorter. The spatial distributions of spots depend on either different grating periods or different diffraction angles.
 
 `ge_grating.m` creates `.mat` and `.bmp` files for gratings. No FTzernike modes are implemented.
