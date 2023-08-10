@@ -9,7 +9,7 @@
 
 `ge_modes.m` generates `.mat` and `.bmp` files for the first 6 Zernike modes, namely $`m_1=Z^0_0`$, $`m_2=Z^1_1`$, $`m_3=Z^{-1}_1`$, $`m_4=Z^{-2}_2`$, $`m_5=Z^0_2`$, $`m_6=Z^2_2`$, and corresponding FT.
 
-`ge_mode2_defocus.m` generates `.mat` and '.bmp` files for FTzernike mode 2, and with defocus.
+`ge_mode2_defocus.m` generates `.mat` and `.bmp` files for FTzernike mode 2, and with defocus.
 
 `SLM_bmp_J1Method.m` is a function that takes a complex field as input, and creates a `uint8` matrix for the phase-only SLM, such that the SLM will produce the input complex field. Note that the code (not listed here) for generating the FTzernike modes requires this function, but the code that generates sorters do not use this function.
 
